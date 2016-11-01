@@ -43,7 +43,7 @@
     "@ionic/storage": "1.1.6",
     "ionic-angular": "2.0.0-rc.1",
     "ionic-native": "2.2.3",
-    "ionic2-custom-icons": "0.3.0",
+    "ionic2-custom-icons": "0.3.1",
     "ionicons": "^3.0.0",
     "rxjs": "5.0.0-beta.12",
     "zone.js": "0.6.21"
