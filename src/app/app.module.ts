@@ -1,5 +1,5 @@
-import {NgModule} from '@angular/core';
-import {IonicApp, IonicModule} from 'ionic-angular';
+import {NgModule, ErrorHandler} from '@angular/core';
+import {IonicApp, IonicModule, IonicErrorHandler} from 'ionic-angular';
 import {CustomIconsModule} from 'ionic2-custom-icons';
 import {MyApp} from './app.component';
 import {RootPage} from '../pages/root.page';
@@ -26,7 +26,7 @@ import {TabsPage, TabIconTextPage} from '../pages/tabs/tabs.page';
       TabsPage,
       TabIconTextPage
    ],
-   providers: []
+   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })
 export class AppModule {
 }
