@@ -18,6 +18,10 @@ module.exports = {
       src: ['{{ROOT}}/node_modules/ionic-angular/polyfills/polyfills.js'],
       dest: '{{BUILD}}'
    },
+   copySwToolbox: {
+      src: ['{{ROOT}}/node_modules/sw-toolbox/sw-toolbox.js'],
+      dest: '{{BUILD}}'
+   },
    copyCustomIcons: {
       src: ['{{ROOT}}/.tmp-custom-icons/fonts/**/*'],
       dest: '{{WWW}}/assets/fonts'
