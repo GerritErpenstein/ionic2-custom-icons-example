@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 import {NavController} from 'ionic-angular';
 import {IconsPage} from './icons/icons.page';
 import {TabsPage} from './tabs/tabs.page';
+import {PlatformPage} from "./platform/platform.page";
 
 @Component({
    template: `
@@ -16,6 +17,7 @@ import {TabsPage} from './tabs/tabs.page';
         <ion-content padding>
             <button ion-button block (click)="goIconsPage()">Custom icons example</button>
             <button ion-button block (click)="goTabsPage()">Custom icons tabs example</button>
+            <button ion-button block (click)="goPlatformPage()">Platform-specific icons example</button>
         </ion-content>
     `
 })
@@ -30,6 +32,10 @@ export class RootPage {
 
    public goTabsPage() {
       this._navCtrl.push(TabsPage);
+   }
+
+   public goPlatformPage() {
+      this._navCtrl.push(PlatformPage);
    }
 
 }

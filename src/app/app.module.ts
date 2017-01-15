@@ -5,6 +5,7 @@ import {MyApp} from './app.component';
 import {RootPage} from '../pages/root.page';
 import {IconsPage} from '../pages/icons/icons.page';
 import {TabsPage, TabIconTextPage} from '../pages/tabs/tabs.page';
+import {PlatformPage} from "../pages/platform/platform.page";
 
 @NgModule({
    declarations: [
@@ -12,7 +13,8 @@ import {TabsPage, TabIconTextPage} from '../pages/tabs/tabs.page';
       RootPage,
       IconsPage,
       TabsPage,
-      TabIconTextPage
+      TabIconTextPage,
+      PlatformPage
    ],
    imports: [
       IonicModule.forRoot(MyApp),
@@ -24,7 +26,8 @@ import {TabsPage, TabIconTextPage} from '../pages/tabs/tabs.page';
       RootPage,
       IconsPage,
       TabsPage,
-      TabIconTextPage
+      TabIconTextPage,
+      PlatformPage
    ],
    providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

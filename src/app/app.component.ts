@@ -5,6 +5,7 @@ import {StatusBar, Splashscreen} from 'ionic-native';
 import {RootPage} from '../pages/root.page';
 import {IconsPage} from '../pages/icons/icons.page';
 import {TabsPage} from '../pages/tabs/tabs.page';
+import {PlatformPage} from "../pages/platform/platform.page";
 
 
 @Component({
@@ -22,7 +23,8 @@ export class MyApp {
 
       this.pages = [
          {title: 'Custom icons example', component: IconsPage},
-         {title: 'Tabs example', component: TabsPage}
+         {title: 'Tabs example', component: TabsPage},
+         {title: 'Platform-specific icons example', component: PlatformPage}
       ];
 
    }

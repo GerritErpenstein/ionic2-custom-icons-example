@@ -10,6 +10,11 @@ module.exports = {
          src: 'icons/foundation-icons/*.svg',
          name: 'FoundationIcons',
          id: 'fi'
+      },
+      {
+         src: 'icons/platform-icons/*.svg',
+         name: 'PlatformIcons',
+         id: 'pi'
       }
    ]
 };
