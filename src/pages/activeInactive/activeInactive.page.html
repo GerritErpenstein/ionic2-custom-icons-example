@@ -1,0 +1,22 @@
+<ion-header>
+   <ion-navbar>
+      <button ion-button menuToggle>
+         <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>Active/inactive icons</ion-title>
+   </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+   <div>
+      Active:
+      <!-- Note: isActive is true by default -->
+      <custom-icon set="test" name="heart" isActive="true"></custom-icon>
+   </div>
+   <div>
+      Inactive:
+      <custom-icon set="test" name="heart" isActive="false"></custom-icon>
+   </div>
+
+</ion-content>

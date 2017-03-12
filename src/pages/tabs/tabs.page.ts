@@ -7,7 +7,7 @@ import {Component} from '@angular/core';
             <button ion-button menuToggle>
                 <ion-icon name="menu"></ion-icon>
             </button>
-            <ion-title>Tabs example</ion-title>
+            <ion-title>Tabs</ion-title>
         </ion-navbar>
     </ion-header>
     <ion-content padding>

@@ -1,8 +1,7 @@
 import {Component} from '@angular/core';
 import {NavController} from 'ionic-angular';
-import {IconsPage} from './icons/icons.page';
-import {TabsPage} from './tabs/tabs.page';
-import {PlatformPage} from "./platform/platform.page";
+
+import {PagesConfig} from './../app/pages-config';
 
 @Component({
    template: `
@@ -14,28 +13,25 @@ import {PlatformPage} from "./platform/platform.page";
                 <ion-title>Custom icons</ion-title>
             </ion-navbar>
         </ion-header>
-        <ion-content padding>
-            <button ion-button block (click)="goIconsPage()">Custom icons example</button>
-            <button ion-button block (click)="goTabsPage()">Custom icons tabs example</button>
-            <button ion-button block (click)="goPlatformPage()">Platform-specific icons example</button>
+        <ion-content>
+            <ion-list>
+                <ion-list-header>
+                    Examples
+                </ion-list-header>
+                <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
+                    {{p.title}}
+                </button>
+            </ion-list>
         </ion-content>
     `
 })
 export class RootPage {
 
-   constructor(private _navCtrl: NavController) {
+   constructor(public pages:PagesConfig, private _navCtrl: NavController) {
    }
 
-   public goIconsPage() {
-      this._navCtrl.push(IconsPage);
-   }
-
-   public goTabsPage() {
-      this._navCtrl.push(TabsPage);
-   }
-
-   public goPlatformPage() {
-      this._navCtrl.push(PlatformPage);
+   openPage(page) {
+      this._navCtrl.setRoot(page.component);
    }
 
 }

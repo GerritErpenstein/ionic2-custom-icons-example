@@ -1,10 +1,10 @@
 import {Component} from '@angular/core';
 
 @Component({
-   templateUrl: 'icons.page.html'
+   templateUrl: 'overview.page.html'
 })
-export class IconsPage {
-   public mySet: string = 'ei';
+export class OverviewPage {
+   public mySet: string = 'evil';
    public myIconName: string = 'gear';
    public myIonicIconName: string = 'cog';
 }
