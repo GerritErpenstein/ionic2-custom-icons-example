@@ -10,7 +10,7 @@ module.exports = {
       'node_modules/ionic-angular/themes',
       'node_modules/ionicons/dist/scss',
       'node_modules/ionic-angular/fonts',
-      'node_modules/ionic2-custom-icons/directive/scss/',
+      'node_modules/ionic2-custom-icons/ionic/scss/',
       '.tmp-custom-icons/scss/'
    ],
 

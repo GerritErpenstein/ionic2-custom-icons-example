@@ -1,0 +1,28 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Platform-specific icons</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+   <div>
+      <custom-icon set="test" name="platform-logo" large></custom-icon>
+   </div>
+
+   <ion-card>
+      <ion-card-header>
+         Mode: {{ mode }}
+      </ion-card-header>
+      <ion-card-content [ngSwitch]="mode">
+         You should see
+         <span *ngSwitchCase="'ios'">an apple.</span>
+         <span *ngSwitchCase="'md'">a robot.</span>
+         <span *ngSwitchCase="'wp'">the Windows logo.</span>
+      </ion-card-content>
+   </ion-card>
+
+</ion-content>

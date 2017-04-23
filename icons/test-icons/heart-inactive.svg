@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xml:space="preserve"
+   enable-background="new 0 0 512 512"
+   viewBox="0 0 512 512"
+   height="512px"
+   width="512px"
+   y="0px"
+   x="0px"
+   id="Layer_1"
+   version="1.1"><metadata
+     id="metadata4562"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs4560" /><path
+     id="rect2816"
+     d="m 366.25298,5.99985 -15,0.0107 h -0.0108 c -35.25972,0.0246 -69.26173,12.87506 -96.46484,35.92382 -26.78016,-21.82871 -59.81113,-33.94667 -94,-34.01269 h -0.0147 -0.0146 C 74.90909,7.92113 5.9995,82.15495 6,172.17656 v 0.007 0.008 c 0.0377,38.65567 12.90153,75.91534 36.2373,105.41309 l -0.49023,0.52344 213.35742,227.87206 213.36133,-227.87304 -0.32032,-0.3418 C 492.50376,247.9835 505.98191,209.87417 506,170.27262 v -0.003 -0.004 c 4.5e-4,-84.71045 -61.02254,-155.42 -139.74707,-163.4707 z m -15,30.01074 c 0.004,0 0.006,0 0.01,0 68.51832,0.005 124.73873,59.41737 124.73828,134.25489 -0.0185,36.88351 -14.18743,72.07616 -38.87207,97.29297 l -10.04492,10.26172 0.28613,0.30566 -172.26489,183.98145 -172.26466,-183.98243 0.12891,-0.13769 -9.6875,-10.25293 C 49.57585,242.64303 36.03862,208.19899 36.00005,172.17563 v -0.007 c -1e-5,-0.002 0,-0.005 0,-0.007 0.006,-74.82962 56.22202,-134.23273 124.73438,-134.24024 30.89273,0.0636 60.70321,12.41913 83.73144,34.98047 l 10.69629,10.47949 10.49805,-10.67871 C 288.9229,49.03915 319.5075,36.03536 351.25298,36.01056 Z"
+     style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:29.99980545;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" /></svg>

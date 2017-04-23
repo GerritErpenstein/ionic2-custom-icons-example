@@ -3,13 +3,15 @@ module.exports = {
    iconSets: [
       {
          src: 'icons/evil-icons/*.svg',
-         name: 'EvilIcons',
-         id: 'ei'
+         id: 'evil'
       },
       {
          src: 'icons/foundation-icons/*.svg',
-         name: 'FoundationIcons',
-         id: 'fi'
+         id: 'foundation'
+      },
+      {
+         src: 'icons/test-icons/*.svg',
+         id: 'test'
       }
    ]
 };
