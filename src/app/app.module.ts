@@ -1,6 +1,8 @@
 import {NgModule, ErrorHandler} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {IonicApp, IonicModule, IonicErrorHandler} from 'ionic-angular';
+import {StatusBar} from '@ionic-native/status-bar';
+import {SplashScreen} from '@ionic-native/splash-screen';
 import {CustomIconsModule} from 'ionic2-custom-icons';
 import {MyApp} from './app.component';
 import {PagesConfig} from './pages-config';
@@ -10,9 +12,7 @@ import {OverviewPage} from '../pages/overview/overview.page';
 import {TabsPage, TabIconTextPage} from '../pages/tabs/tabs.page';
 import {PlatformPage} from "../pages/platform/platform.page";
 import {ActiveInactivePage} from "../pages/activeInactive/activeInactive.page";
-
-import {StatusBar} from '@ionic-native/status-bar';
-import {SplashScreen} from '@ionic-native/splash-screen';
+import {ActionSheetPage} from '../pages/action-sheet/action-sheet.page';
 
 @NgModule({
    declarations: [
@@ -22,7 +22,8 @@ import {SplashScreen} from '@ionic-native/splash-screen';
       TabsPage,
       TabIconTextPage,
       PlatformPage,
-      ActiveInactivePage
+      ActiveInactivePage,
+      ActionSheetPage
    ],
    imports: [
       BrowserModule,
@@ -37,7 +38,8 @@ import {SplashScreen} from '@ionic-native/splash-screen';
       TabsPage,
       TabIconTextPage,
       PlatformPage,
-      ActiveInactivePage
+      ActiveInactivePage,
+      ActionSheetPage
    ],
    providers: [
       StatusBar,

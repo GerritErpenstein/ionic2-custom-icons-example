@@ -15,7 +15,7 @@ module.exports = {
       dest: '{{WWW}}/assets/fonts'
    },
    copyPolyfills: {
-      src: ['{{ROOT}}/node_modules/ionic-angular/polyfills/polyfills.js'],
+      src: [`{{ROOT}}/node_modules/ionic-angular/polyfills/${process.env.IONIC_POLYFILL_FILE_NAME}`],
       dest: '{{BUILD}}'
    },
    copySwToolbox: {
@@ -26,4 +26,4 @@ module.exports = {
       src: ['{{ROOT}}/.tmp-custom-icons/fonts/**/*'],
       dest: '{{WWW}}/assets/fonts'
    }
-}
+};
