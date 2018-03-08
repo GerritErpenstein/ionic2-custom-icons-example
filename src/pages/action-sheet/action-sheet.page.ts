@@ -1,7 +1,8 @@
 import {Component} from '@angular/core';
-import {Platform} from 'ionic-angular';
+import {IonicPage, Platform} from 'ionic-angular';
 import {ActionSheetCustomIconController} from 'ionic2-custom-icons';
 
+@IonicPage({segment: 'action-sheet'})
 @Component({
    templateUrl: 'action-sheet.page.html'
 })

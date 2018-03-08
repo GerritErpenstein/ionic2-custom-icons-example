@@ -1,5 +1,7 @@
 import {Component} from '@angular/core';
+import {IonicPage} from 'ionic-angular';
 
+@IonicPage({segment: 'overview'})
 @Component({
    templateUrl: 'overview.page.html'
 })

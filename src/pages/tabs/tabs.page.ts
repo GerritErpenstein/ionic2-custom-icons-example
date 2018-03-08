@@ -1,29 +1,13 @@
 import {Component} from '@angular/core';
+import {IonicPage} from 'ionic-angular';
 
-@Component({
-   template: `
-    <ion-header>
-        <ion-navbar>
-            <button ion-button menuToggle>
-                <ion-icon name="menu"></ion-icon>
-            </button>
-            <ion-title>Tabs</ion-title>
-        </ion-navbar>
-    </ion-header>
-    <ion-content padding>
-        MyContent
-    </ion-content>
-`
-})
-export class TabIconTextPage {
-}
-
+@IonicPage({segment: 'tabs'})
 @Component({
    templateUrl: 'tabs.page.html'
 })
 export class TabsPage {
-   public tabOne = TabIconTextPage;
-   public tabTwo = TabIconTextPage;
-   public tabThree = TabIconTextPage;
-   public tabFour = TabIconTextPage;
+   public tabOne = 'ContentTabPage';
+   public tabTwo = 'ContentTabPage';
+   public tabThree = 'ContentTabPage';
+   public tabFour = 'ContentTabPage';
 }
